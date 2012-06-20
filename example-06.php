@@ -15,4 +15,7 @@ fclose($bp);
 memUsage();
 memPeak();
 
+// Where does 'php://temp' data live on the file system?
+print sys_get_temp_dir()."\n";
+
 ?>
